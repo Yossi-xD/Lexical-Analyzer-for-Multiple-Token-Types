@@ -7,9 +7,9 @@ A lexical analyzer (scanner) built with Flex that recognizes multiple token type
 - [Features](#features)
 - [Token Types](#token-types)
 - [Prerequisites](#prerequisites)
-- [Contributing](#contributing)
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Contributing](#contributing)
 
 ## Overview
 
@@ -76,7 +76,9 @@ This lexical analyzer is implemented using Flex (Fast Lexical Analyzer Generator
 - Make Commands
 
   make          # Build the analyzer
+  
   make run      # Build and run with test_input.txt
+  
   make clean    # Remove generated files
 
 ## Contributing
