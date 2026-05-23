@@ -8,6 +8,8 @@ A lexical analyzer (scanner) built with Flex that recognizes multiple token type
 - [Token Types](#token-types)
 - [Prerequisites](#prerequisites)
 - [Contributing](#contributing)
+- [Installation](#Installation)
+- [Usage](#Usage)
 
 ## Overview
 
@@ -45,6 +47,37 @@ This lexical analyzer is implemented using Flex (Fast Lexical Analyzer Generator
 - **Flex** - Lexical analyzer generator
 - **GCC** - C compiler
 - **Make** - Build automation (optional)
+
+## Installation
+
+# Clone the repository
+git clone https://github.com/Yossi-xd/lexical-analyzer.git
+cd lexical-analyzer
+# Build the analyzer
+make
+# Or manually
+flex lexical_analyzer.lex
+gcc lex.yy.c -o lexical_analyzer -lfl
+
+
+## Usage
+
+- Basic Usage
+
+# Analyze a file
+./lexical_analyzer test_input.txt
+
+# Interactive mode
+./lexical_analyzer
+
+# Save output to file
+./lexical_analyzer test_input.txt > output.txt
+
+- Make Commands
+
+make          # Build the analyzer
+make run      # Build and run with test_input.txt
+make clean    # Remove generated files
 
 ## Contributing
 
