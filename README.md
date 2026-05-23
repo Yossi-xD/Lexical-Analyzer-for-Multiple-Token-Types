@@ -52,11 +52,14 @@ This lexical analyzer is implemented using Flex (Fast Lexical Analyzer Generator
 
 - Clone the repository
   git clone https://github.com/Yossi-xd/lexical-analyzer.git
+  
   cd lexical-analyzer
 - Build the analyzer
+
   make
 - Or manually
   flex lexical_analyzer.lex
+
   gcc lex.yy.c -o lexical_analyzer -lfl
 
 
@@ -64,14 +67,14 @@ This lexical analyzer is implemented using Flex (Fast Lexical Analyzer Generator
 
 - Basic Usage
 
- Analyze a file
-./lexical_analyzer test_input.txt
+   Analyze a file
+  ./lexical_analyzer test_input.txt
 
- Interactive mode
-./lexical_analyzer
+   Interactive mode
+  ./lexical_analyzer
 
- Save output to file
-./lexical_analyzer test_input.txt > output.txt
+   Save output to file
+  ./lexical_analyzer test_input.txt > output.txt
 
 - Make Commands
 
