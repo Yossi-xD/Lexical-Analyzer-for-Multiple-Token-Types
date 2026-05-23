@@ -1,0 +1,41 @@
+12
+-523
++4250
+0
+-0
++9999
+12.46
+-15.0
++3.1415
+-55.23e5
++123.12e-3
+-34.444e+5
+3.14159
+-0.001
++1.0e-10
+variable_name
+counter1
+_privateVar
+function123
+test_var_2
+if
+while
+for
+switch
+case
+break
+continue
+054-878-0246
+03-235-1222
++972-52-211-3467
++1-555-123-4567
+02-555-9876
+name@gmail.com
+name@walla.co.il
+user@example.org
+first.last@domain.co.uk
+admin@my-site.com
+246 Herzel str, Tel-aviv, Israel, Israel
+2120 Washington Blvd., Washington, Pennsylvania, USA
+123 Main Street, New York, New York, USA
+45 King's Road, London, England, UK
